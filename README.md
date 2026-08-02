@@ -20,25 +20,25 @@ A 25 MHz ABM8G crystal provides the reference clock for both devices.
 
 ### Top Layer
 
-![Top Layer](Images/top_layer.png)
+![Top Layer](PCB1.png)
 
 ---
 
 ### Bottom Layer
 
-![Bottom Layer](Images/bottom_layer.png)
+![Bottom Layer](PCB2.png)
 
 ---
 
 ### 3D View
 
-![3D View](Images/3d_view.png)
+![3D View](3D.png)
 
 ---
 
 # Hardware Block Diagram
 
-![Block Diagram](Images/block_diagram.png)
+![Block Diagram](BlockD.png)
 
 The USB Type-A connector interfaces with the LAN7801 controller. The controller communicates with the KSZ9031RNX Gigabit PHY over the RGMII interface, while MDIO/MDC is used for PHY configuration. The PHY then drives the RJ45 MagJack to provide a standard Gigabit Ethernet connection.
 
