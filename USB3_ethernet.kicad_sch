@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b5a15098-ab54-487f-aefc-2ba8ac77fff3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 161.29 78.74)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f32101f-acac-4543-8273-e3ad5fba9c7e")
+		(property "Sheetname" "RJ"
+			(at 161.29 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RJ.kicad_sch"
+			(at 161.29 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB3_ethernet"
+				(path "/b5a15098-ab54-487f-aefc-2ba8ac77fff3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 78.74)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50a8e970-8ba5-4e1c-bfae-e2555d59b7c8")
+		(property "Sheetname" "USB"
+			(at 93.98 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 93.98 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB3_ethernet"
+				(path "/b5a15098-ab54-487f-aefc-2ba8ac77fff3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 78.74)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d84f7874-dc73-48ad-992b-54a8d6584fb3")
+		(property "Sheetname" "POWER"
+			(at 127 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 127 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB3_ethernet"
+				(path "/b5a15098-ab54-487f-aefc-2ba8ac77fff3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
